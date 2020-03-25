@@ -12,8 +12,9 @@ import UIKit
 class MyPageViewController: UIPageViewController {
     
     private(set) lazy var orderedViewControllers: [UIViewController] = {
-        return [self.getNewViewController(name: "smsAndPhoneVC"),
-                self.getNewViewController(name: "emailVC")]
+        return [self.getNewViewController(name: "FirstPage"),
+                self.getNewViewController(name: "SecondPage"),
+        self.getNewViewController(name: "ThirdPage")]
     }()
     
     override func viewDidLoad() {
@@ -69,7 +70,8 @@ extension MyPageViewController: UIPageViewControllerDataSource {
         // User is on the last view controller and swiped right to loop to
         // the first view controller.
         guard orderedViewControllersCount != nextIndex else {
-            return orderedViewControllers.first
+            let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            return storyBoard.instantiateViewController(withIdentifier: "smsAndPhoneVC")
         }
         
         guard orderedViewControllersCount > nextIndex else {

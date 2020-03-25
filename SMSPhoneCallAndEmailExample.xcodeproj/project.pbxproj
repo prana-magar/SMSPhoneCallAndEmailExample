@@ -16,6 +16,9 @@
 		0768E8B71FA29CB800B1B558 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0768E8B61FA29CB800B1B558 /* MyPageViewController.swift */; };
 		07D3C74E204F7D8100E00441 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07D3C750204F7D8100E00441 /* Localizable.strings */; };
 		07D3C752204F800700E00441 /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D3C754204F800700E00441 /* car.png */; };
+		AB9998B3242C1336002E2E89 /* FirstPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9998B2242C1336002E2E89 /* FirstPageViewController.swift */; };
+		AB9998B5242C134B002E2E89 /* SecondPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9998B4242C134B002E2E89 /* SecondPageViewController.swift */; };
+		AB9998B7242C1357002E2E89 /* ThirdPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9998B6242C1357002E2E89 /* ThirdPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		07D3C751204F7D9E00E00441 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		07D3C753204F800700E00441 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/car.png; sourceTree = "<group>"; };
 		07D3C755204F800E00E00441 /* es */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = es; path = es.lproj/car.png; sourceTree = "<group>"; };
+		AB9998B2242C1336002E2E89 /* FirstPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageViewController.swift; sourceTree = "<group>"; };
+		AB9998B4242C134B002E2E89 /* SecondPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPageViewController.swift; sourceTree = "<group>"; };
+		AB9998B6242C1357002E2E89 /* ThirdPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,9 @@
 				0768E8AC1FA28EA300B1B558 /* Info.plist */,
 				07D3C754204F800700E00441 /* car.png */,
 				07D3C750204F7D8100E00441 /* Localizable.strings */,
+				AB9998B2242C1336002E2E89 /* FirstPageViewController.swift */,
+				AB9998B4242C134B002E2E89 /* SecondPageViewController.swift */,
+				AB9998B6242C1357002E2E89 /* ThirdPageViewController.swift */,
 			);
 			path = SMSPhoneCallAndEmailExample;
 			sourceTree = "<group>";
@@ -166,6 +175,9 @@
 			files = (
 				0768E8A31FA28EA300B1B558 /* PhoneCallAndSMSViewController.swift in Sources */,
 				0768E8B51FA291D200B1B558 /* EmailViewController.swift in Sources */,
+				AB9998B3242C1336002E2E89 /* FirstPageViewController.swift in Sources */,
+				AB9998B7242C1357002E2E89 /* ThirdPageViewController.swift in Sources */,
+				AB9998B5242C134B002E2E89 /* SecondPageViewController.swift in Sources */,
 				0768E8A11FA28EA300B1B558 /* AppDelegate.swift in Sources */,
 				0768E8B71FA29CB800B1B558 /* MyPageViewController.swift in Sources */,
 			);
